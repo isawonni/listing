@@ -14,3 +14,14 @@ int main ()
 	//
 	int Punkte = 500;
 	int Energie = 1500;
+
+	// Adresse der Variablen "Punkte" anzeigen
+	cout << "Die Adresse der Variablen \"Punkte\" ";
+	cout << "lautet: " << &Punkte << endl;
+
+	// Adresse der Variablen "Energie" anzeigen
+	cout << "Die Adresse der Variablen \"Energie\" ";
+	cout << "lautet: " << &Energie << endl;
+
+	return 0;
+}
